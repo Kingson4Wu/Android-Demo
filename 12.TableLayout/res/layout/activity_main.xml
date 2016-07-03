@@ -1,0 +1,30 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".MainActivity" >
+
+    <TableRow>
+        <Button
+            android:text="Button11"
+            />
+        <Button
+            android:text="Button12"
+            />
+        <Button
+            android:text="Button13"
+            />
+    </TableRow>
+ <TableRow>
+        <Button
+            android:layout_span="2"
+            android:text="Button11"
+            />
+         <Button
+             android:layout_column="2"
+            android:text="Button23"
+            />
+    </TableRow>
+</TableLayout>

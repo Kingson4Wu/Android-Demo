@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+ <!-- (设置颜色的第二种方法) -->
+  <!--   <TextView 
+        android:id="@+id/tv"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:textSize="20sp"
+         android:textColor="#00FF00" 
+         android:text="你好！"
+         /> -->
+    
+
+ 
+ <!-- 设置超链接 -->
+ <!-- web/phone/email/map/none/all选项 -->
+ <!--  <TextView 
+        android:id="@+id/tv"
+        android:autoLink="all"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:textSize="20sp"
+         android:textColor="#00FF00" 
+         android:text="欢迎进入我的个人博客http://blog.csdn.net/Kingson_Wu,电话：1365086433406"   
+               />  -->
+ 
+ <!-- 设置跑马灯的效果 -->
+  <TextView 
+        android:id="@+id/tv"
+        android:autoLink="all"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:textSize="20sp"
+         android:textColor="#00FF00" 
+         
+         android:singleLine="true"
+         android:focusable="true"
+         android:ellipsize="marquee"
+         android:marqueeRepeatLimit="marquee_forever"
+         android:focusableInTouchMode="true"
+         
+         
+         
+         android:text="欢迎进入我的个人博客http://blog.csdn.net/Kingson_Wu,电话：1365086433406"   
+               /> 
+ 
+ 
+ 
+ 
+ 
+
+</RelativeLayout>
