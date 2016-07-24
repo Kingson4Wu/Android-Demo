@@ -1,4 +1,6 @@
 
+demo 来自php100 的教程
+
 <pre>
 android环境搭建不用那么复杂，在其官网下载的ADT（adt-bundle-windows-x86_64-20130522.zip）（已下载到本目录），里面已经有Eclipse，并且把SDK在解压时配好了路径。所以android环境搭建只需两步：
 1、官网下载ADT，解压
